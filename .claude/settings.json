@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/app/**)",
+      "Write(/app/**)",
+      "Edit(/temp/**)",
+      "Write(/temp/**)",
+      "Edit(/tests/**)",
+      "Write(/tests/**)"
+    ],
+    "deny": [
+      "Edit(/docs/**)",
+      "Write(/docs/**)",
+      "Edit(/site/**)",
+      "Write(/site/**)",
+      "Edit(/sources/**)",
+      "Write(/sources/**)",
+      "Edit(/specs/**)",
+      "Write(/specs/**)",
+      "Edit(/.claude/**)",
+      "Write(/.claude/**)",
+      "Edit(/.git/**)",
+      "Write(/.git/**)",
+      "Edit(/.github/**)",
+      "Write(/.github/**)",
+      "Edit(/*)",
+      "Write(/*)"
+    ],
+    "defaultMode": "default"
+  }
+}
